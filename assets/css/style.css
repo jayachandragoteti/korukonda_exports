@@ -10771,7 +10771,7 @@ h5,
     font-size: 11px;
     width: 100%;
     display: block;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
 }
 
