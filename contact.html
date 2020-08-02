@@ -84,17 +84,18 @@
                 <div class="w-100"></div>
                 <div class="col-md-3 d-flex">
                     <div class="info bg-white p-4">
-                        <p><span>Address:</span> Korukonda
+                        <p><span>Address:</span> 
+                           <a href="#" ><br>Korukonda</a>
                         </p>
                     </div>
                 </div>
                 <div class="col-md-3 d-flex">
                     <div class="info bg-white p-4">
-                        <p><span>Phone:</span> <a href="tel://0000000000000">+91 0000 0000 00</a></p>
+                        <p><span>Phone:</span> <a href="tel://0000000000000"><br>+91 0000 0000 00</a></p>
                     </div>
                 </div>
                 <div class="col-md-3 d-flex">
-                    <div class="info bg-white p-4">
+                    <div class="info bg-white p-3">
                         <p><span>Email:</span> <a href="email:korukondaexports@gmail.com">korukondaexports@gmail.com</a></p>
                     </div>
                 </div>
@@ -104,22 +105,25 @@
                     </div>
                 </div>
             </div>
-            <div class="row block-9">
+            <div class="row block-9 justify-content-center">
                 <div class="col-md-6 order-md-last d-flex">
                     <form action="contact_email.php" method='POST' class="bg-white p-5 contact-form">
                         <div class="form-group">
                             <input type="text" name="Name" class="form-control" placeholder="Your Name">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="email" class="form-control" placeholder="Your Email">
+                            <input type="text" name="CompanyName" class="form-control" placeholder="Company Name">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="subject" class="form-control" placeholder="Subject">
+                            <input type="email" name="email" class="form-control" placeholder="Email-Id">
                         </div>
                         <div class="form-group">
-                            <textarea name="massage" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                            <input type="number" name="subject" class="form-control" placeholder="Contact Number">
                         </div>
                         <div class="form-group">
+                            <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Requirements"></textarea>
+                        </div>
+                        <div class="form-group text-center">
                             <input type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5">
                         </div>
                     </form>
