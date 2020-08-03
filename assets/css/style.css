@@ -11795,12 +11795,14 @@ h5,
 }
 
 .product .text h3 {
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 15px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "Poppins", Arial, sans-serif;
+    font-weight: bolder;
+    
 }
 
 .product .text h3 a {
@@ -11811,6 +11813,7 @@ h5,
     margin-bottom: 0;
     color: #82ae46;
     font-weight: 400;
+    text-transform: capitalize;
 
 }
 .product .text p {
@@ -11818,15 +11821,18 @@ h5,
     color: black;
     font-weight: 400;
     text-align: left;
+    text-transform: capitalize;
 }
 
 .product .text p.price span.price-dc {
     text-decoration: line-through;
     color: #b3b3b3;
+    text-transform: capitalize;
 }
 
 .product .text p.price span.price-sale {
     color: #82ae46;
+    text-transform: capitalize;
 }
 
 .product .text .pricing {
@@ -11840,9 +11846,10 @@ h5,
 
 .product .text .bottom-area {
     position: absolute;
-    bottom: 15px;
+    bottom: 140px;
     left: 0;
     right: 0;
+    top: -50px;
     opacity: 0;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
