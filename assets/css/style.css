@@ -11811,6 +11811,13 @@ h5,
     margin-bottom: 0;
     color: #82ae46;
     font-weight: 400;
+
+}
+.product .text p {
+    margin-bottom: 0;
+    color: black;
+    font-weight: 400;
+    text-align: left;
 }
 
 .product .text p.price span.price-dc {
