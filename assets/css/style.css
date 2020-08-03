@@ -4721,7 +4721,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav .nav-link {
-    padding-right: 0;
+    padding-right: -10px;
     padding-left: 0;
 }
 
@@ -10832,11 +10832,11 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-    font-size: 11px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-right:10px;
     font-weight: 400;
     color: #000000;
     text-transform: uppercase;
