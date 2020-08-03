@@ -1,11 +1,5 @@
 <?PHP 
-if(isset($_POST['submit'])){
- $Name=$_POST['Name'];
- $email=$_POST['email'];
- $subject=$_POST['subject'];
- $massage=$_POST['massage'];
 
-}
 if (isset($_POST['Enquiry_Now'])) {
         $name=$_POST['name'];
         $Company=$_POST['Company'];
@@ -16,9 +10,7 @@ if (isset($_POST['Enquiry_Now'])) {
   //--------------------- Mail -------------------  
   $to ='korukondaexports@gmail.com';
   $from =$email;
-  $message = " Hi  this is ". $Name.".
-  ". $massage." 
-  ";
+  $message = " Hi  this is ". $Name." from ".$Company." my contact details are ".$phone." ,".$email.". My requirement is ".$requirements.",".$content."";
   $headers = "From:" . $from;
   if (mail($to, $subject,$message,$headers)){
         echo "<script>alert('Request submitted successfully')</script>";
