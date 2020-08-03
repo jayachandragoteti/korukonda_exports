@@ -12443,6 +12443,35 @@ textarea.form-control {
     padding: 7em 0;
     position: relative;
 }
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:center;
+    width:100%;
+    height:100%;
+}
+.trickcenter {
+    position: fixed;
+    top: 74%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-caption h3 p{
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+.carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
+.item {
+    position:relative;
+}
 
 .ftco-no-pt {
     padding-top: 0 !important;
