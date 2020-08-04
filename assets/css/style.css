@@ -13679,6 +13679,7 @@ textarea.form-control {
 .parallax h3,
 .parallax span {
     color: white;
+    opacity: 50;
 }
 
 .white {
