@@ -10846,7 +10846,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-    color:#82ae46;
+    color: #82ae46;
     font-weight: bolder;
 }
 
@@ -13674,9 +13674,9 @@ textarea.form-control {
 }
 
 .parallax p,
-h2,
-h3,
-span {
+.parallax h2,
+.parallax h3,
+.parallax span {
     color: white;
 }
 
