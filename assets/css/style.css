@@ -4562,7 +4562,6 @@ input[type="button"].btn-block {
     }
 }
 
-
 .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4760,7 +4759,7 @@ input[type="button"].btn-block {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
     text-decoration: none;
-    color:#82ae46;
+    color: #82ae46;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -4784,7 +4783,6 @@ input[type="button"].btn-block {
         padding-left: 0;
     }
 }
-
 
 @media (min-width: 576px) {
     .navbar-expand-sm {
@@ -13670,4 +13668,15 @@ textarea.form-control {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax p,
+h2,
+h3,
+span {
+    color: white;
+}
+
+.white {
+    color: white;
 }
