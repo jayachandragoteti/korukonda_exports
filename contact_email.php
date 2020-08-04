@@ -20,16 +20,5 @@ if(isset($_POST['submit'])){
  }
 //--------------------- /Mail -------------------
 }
-if (isset($_POST['Enquiry_Now'])) {
-        $name=$_POST['name'];
-        $Company=$_POST['Company'];
-        $phone=$_POST['phone'];
-        $email=$_POST['email'];
-        $requirements=$_POST['requirements'];
-        $content=$_POST['content'];
-        echo "<script>alert('Request submitted successfully')</script>";
-         echo "<script>window.location='idex.html';</script>";
-
-}
 
 ?>

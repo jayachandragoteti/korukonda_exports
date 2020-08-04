@@ -10,14 +10,15 @@ if (isset($_POST['Enquiry_Now'])) {
   //--------------------- Mail -------------------  
   $to ='korukondaexports@gmail.com';
   $from =$email;
+  $subject='';
   $message = " Hi  this is ". $Name." from ".$Company." my contact details are ".$phone." ,".$email.". My requirement is ".$requirements.",".$content."";
   $headers = "From:" . $from;
   if (mail($to, $subject,$message,$headers)){
         echo "<script>alert('Request submitted successfully')</script>";
-        echo "<script>window.location='idex.html';</script>";
+        echo "<script>window.location='index.html';</script>";
   }else{
           echo "<script>alert(' Failed try again!')</script>";
-          echo "<script>window.location='idex.html';</script>";
+          echo "<script>window.location='index.html';</script>";
   }
  //--------------------- /Mail -------------------
        

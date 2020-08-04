@@ -10836,7 +10836,7 @@ h5,
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 10px;
-    padding-right:10px;
+    padding-right: 10px;
     font-weight: 400;
     color: #000000;
     text-transform: uppercase;
@@ -11803,7 +11803,6 @@ h5,
     letter-spacing: 1px;
     font-family: "Poppins", Arial, sans-serif;
     font-weight: bolder;
-    
 }
 
 .product .text h3 a {
@@ -11815,8 +11814,8 @@ h5,
     color: #82ae46;
     font-weight: 400;
     text-transform: capitalize;
-
 }
+
 .product .text p {
     margin-bottom: 0;
     color: black;
@@ -12458,34 +12457,39 @@ textarea.form-control {
     padding: 7em 0;
     position: relative;
 }
+
 .carousel-caption {
     position: absolute;
     z-index: 1;
-    display:center;
-    width:100%;
-    height:100%;
+    display: center;
+    width: 100%;
+    height: 100%;
 }
+
 .trickcenter {
     position: fixed;
-    top: 74%; 
+    top: 74%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.carousel-caption h3 p{
-    display:table-cell;
+
+.carousel-caption h3 p {
+    display: table-cell;
     vertical-align: middle;
-    text-align:center;
+    text-align: center;
 }
+
 .carousel-content {
     position: absolute;
     bottom: 10%;
     left: 5%;
     z-index: 20;
     color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
-  }
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
 .item {
-    position:relative;
+    position: relative;
 }
 
 .ftco-no-pt {
@@ -13652,4 +13656,8 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
+}
+
+.form-group input {
+    height: 10px;
 }
