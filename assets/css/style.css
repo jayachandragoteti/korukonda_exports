@@ -10846,7 +10846,8 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-    color: #000000;
+    color:#82ae46;
+    font-weight: bolder;
 }
 
 @media (max-width: 991.98px) {
@@ -10858,7 +10859,8 @@ h5,
         color: rgba(255, 255, 255, 0.7);
     }
     .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-        color: #fff;
+        color: #82ae46;
+        font-weight: bolder;
     }
 }
 
@@ -10881,7 +10883,8 @@ h5,
 .ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu .dropdown-item:hover,
 .ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu .dropdown-item:focus {
     background: transparent;
-    color: #000000;
+    color: #82ae46;
+    font-weight: bolder;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.ftco-seperator {
