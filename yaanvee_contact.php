@@ -1,37 +1,25 @@
 <?PHP 
 
-if (isset($_POST['Enquiry_Now'])) {
+if (isset($_POST['send'])) {
+        $message=$_POST['message'];
         $name=$_POST['name'];
-        $Company=$_POST['Company'];
-        $phone=$_POST['phone'];
         $email=$_POST['email'];
-        $requirements=$_POST['requirements'];
-        $content=$_POST['content'];
+        $subject=$_POST['subject'];
   //--------------------- Mail -------------------  
-  $to ='korukondaexports@gmail.com';
+  $to ='yaanvetechnologies@gmail.com';
   $from =$email;
-  $subject='Order for '.$content.'';
-  $message = " Hi  this is ".$name." from ".$Company.".
-  
-    My requirement is ".$requirements.",".$content.".
-
-    Contact details :
-    Phone : ".$phone.",
-    Email : ".$email.".
-    ";
   $headers = "From:" . $from;
   if (mail($to, $subject,$message,$headers)){
             //--------------------- Mail -------------------  
             $to1 =$email;
-            $from1 ='korukondaexports@gmail.com';
-            $subject1='Order Placed Successfully';
+            $from1 ='yaanvetechnologies@gmail.com';
+            $subject1='Response from Yaanve Technologies';
             $message1 = "Mr/Ms.".$name."
             
-            Thank you! Your request is submitted successfully.
-            Our marketing team will contact you soon with the package details.
+            Thank you! Your request mail submitted successfully.
+            Our marketing team will contact you soon.
             
-            Happy Shopping,
-            Team Korukonda Exports.
+            Team Yaanve Technologies.
             ";
             $headers1 = "From:" . $from1;
             if(mail($to1, $subject1,$message1,$headers1)){
