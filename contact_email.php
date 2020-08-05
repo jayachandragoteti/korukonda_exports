@@ -5,7 +5,7 @@ if(isset($_POST['submit'])){
  $subject=$_POST['subject'];
  $massage=$_POST['massage'];
   //--------------------- Mail -------------------  
- $to ='korukondaexports@gmail.com';
+ $to ='aitamsac@gmail.com';
  $from =$email;
  $message = " Hi  this is ". $Name.".
  ". $massage." 

@@ -11,7 +11,7 @@ if (isset($_POST['Enquiry_Now'])) {
         $quantity=$_POST['quantity'];
 
   //--------------------- Mail -------------------  
-  $to ='meghana9111@gmail.com';
+  $to ='aitamsac@gmail.com';
   $from =$email;
   $subject='Order for '.$content.'';
   $message = " I am ".$name.", from ".$Company." company request you to send ".$quantity." of ".$content." to ".$address.".
@@ -25,7 +25,7 @@ if (isset($_POST['Enquiry_Now'])) {
   if (mail($to, $subject,$message,$headers)){
             //--------------------- Mail -------------------  
             $to1 =$email;
-            $from1 ='meghana9111@gmail.com';
+            $from1 ='aitamsac@gmail.com';
             $subject1='Order Placed Successfully';
             $message1 = "Mr/Ms.".$name.",
             
