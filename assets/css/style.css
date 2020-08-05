@@ -12723,9 +12723,9 @@ textarea.form-control {
     width: 100%;
 }
 
-.ftco-services .services .media-body {
+.ftco-services .services .media-body p a{
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 500;
     font-family: "Poppins", Arial, sans-serif;
     color: black;
