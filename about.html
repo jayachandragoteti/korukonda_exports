@@ -32,49 +32,41 @@
 </head>
 <style>
     .stay h1 {
-  margin: 0;
-/*   animation: colorchange 2s infinite; */
-}
-.stay h3 {
-  margin: 0;
-/*   animation: colorchange 2s infinite; */
-}
-.stay h6 {
-  margin: 0;
-/*   animation: colorchange 2s infinite; */
-}
-
-h1.stay {
-  text-shadow:
-     3px  3px 0 #000,
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
-}
-
-@supports (-webkit-text-stroke: 1px black) {
-  .stay h1 {
-    -webkit-text-stroke: 1px black;
-    -webkit-text-fill-color: white;
-  }
-}
-
-
-
-h6.stay {
-  text-shadow:
-     
-    -1px  1px 0 #82ae46,
-     1px  1px 0 #82ae46;
-}
-
-@supports (-webkit-text-stroke: 1px #82ae46,) {
-  .stay h6 {
-    -webkit-text-stroke: 1px #82ae46;
-    -webkit-text-fill-color:  white
-  }
-}
+        margin: 0;
+        /*   animation: colorchange 2s infinite; */
+    }
+    
+    .stay h3 {
+        margin: 0;
+        /*   animation: colorchange 2s infinite; */
+    }
+    
+    .stay h6 {
+        margin: 0;
+        /*   animation: colorchange 2s infinite; */
+    }
+    
+    h1.stay {
+        text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+    
+    @supports (-webkit-text-stroke: 1px black) {
+        .stay h1 {
+            -webkit-text-stroke: 1px black;
+            -webkit-text-fill-color: white;
+        }
+    }
+    
+    h6.stay {
+        text-shadow: -1px 1px 0 #82ae46, 1px 1px 0 #82ae46;
+    }
+    
+    @supports (-webkit-text-stroke: 1px #82ae46, ) {
+        .stay h6 {
+            -webkit-text-stroke: 1px #82ae46;
+            -webkit-text-fill-color: white
+        }
+    }
 </style>
 
 <body class="goto-here">
@@ -122,16 +114,14 @@ h6.stay {
                     <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="fruits.html" class="nav-link">Fruits</a></li>
                     <li class="nav-item"><a href="vegetables.html" class="nav-link">Vegetables</a></li>
-                    <li class="nav-item"><a href="nuts_grains.html" class="nav-link">Nuts&Grains</a></li>
-                    <li class="nav-item"><a href="other_products.html" class="nav-link">Other Products</a></li>
-                    <!--  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fruits</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true">Other Products</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="fresh_fruits.html">Fresh Fruits</a>
-                            <a class="dropdown-item" href="dry_fruits.html">Dry Fruits</a>
+                            <a class="dropdown-item" href="nuts_grains.html">Nuts&Grains</a>
+                            <a class="dropdown-item" href="other_products.html">Agarbatti</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vegetables</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
                             <a class="dropdown-item" href="leaf_vegetables.html">Leafy Vegetables</a>
