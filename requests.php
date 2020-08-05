@@ -1,31 +1,33 @@
 <?PHP 
 
 if (isset($_POST['Enquiry_Now'])) {
-        $name=$_POST['name'];
-        $Company=$_POST['Company'];
+        $name= strtoupper($_POST['neme']);
+        $Company= strtoupper($_POST['Company']);
         $phone=$_POST['phone'];
         $email=$_POST['email'];
         $requirements=$_POST['requirements'];
         $content=$_POST['content'];
+        $address=$_POST['address'];
+        $quantity=$_POST['quantity'];
+
   //--------------------- Mail -------------------  
-  $to ='korukondaexports@gmail.com';
+  $to ='meghana9111@gmail.com';
   $from =$email;
   $subject='Order for '.$content.'';
-  $message = " Hi  this is ".$name." from ".$Company.".
+  $message = " I am ".$name.", from ".$Company." company request you to send ".$quantity." of ".$content." to ".$address.".
+  Other Requirements are ".$requirements.".
   
-    My requirement is ".$requirements.",".$content.".
-
-    Contact details :
-    Phone : ".$phone.",
-    Email : ".$email.".
+  Please feel free to contact me if you experience any further problems - 
+  ".$phone.".
+  ".$Company."
     ";
   $headers = "From:" . $from;
   if (mail($to, $subject,$message,$headers)){
             //--------------------- Mail -------------------  
             $to1 =$email;
-            $from1 ='korukondaexports@gmail.com';
+            $from1 ='meghana9111@gmail.com';
             $subject1='Order Placed Successfully';
-            $message1 = "Mr/Ms.".$name."
+            $message1 = "Mr/Ms.".$name.",
             
             Thank you! Your request is submitted successfully.
             Our marketing team will contact you soon with the package details.
@@ -38,7 +40,7 @@ if (isset($_POST['Enquiry_Now'])) {
                   echo "<script>alert('Request submitted successfully')</script>";
                   echo "<script>window.location='index.html';</script>";
             }else{
-                  echo "<script>alert('Request submitted successfully')</script>";
+                  echo "<script>alert('Request submitted successfully.')</script>";
                   echo "<script>window.location='index.html';</script>";
             }  
             //--------------------- Mail ------------------- 
