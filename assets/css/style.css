@@ -366,6 +366,7 @@ template {
     display: none !important;
 }
 
+
 h1,
 h2,
 h3,
@@ -7132,14 +7133,14 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #fff !important;
 }
 
 a.bg-light:hover,
 a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-    background-color: #dae0e5 !important;
+    background-color: #fff !important;
 }
 
 .bg-dark {
@@ -11443,7 +11444,7 @@ h5,
 }
 
 .bg-light {
-    background: #f7f6f2 !important;
+    background: #fff !important;
 }
 
 .bg-primary {
