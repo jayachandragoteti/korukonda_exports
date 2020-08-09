@@ -115,6 +115,9 @@ address {
     font-style: normal;
     line-height: inherit;
 }
+.bold{
+    color: var(--orange);
+}
 
 ol,
 ul,
