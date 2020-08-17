@@ -13689,6 +13689,13 @@ textarea.form-control {
     color: white;
 }
 
+#logo_img{
+width:75px;
+margin-left: -15%;
+}
+#menu_button{
+    
+}
 @media only screen and (max-width: 1000px) {
     .carousel-caption h3,
     h5,
@@ -13698,8 +13705,19 @@ textarea.form-control {
     .Place_Order {
         padding-bottom: 1rem;
     }
+    #logo_img{
+        margin-left: -8%;
+    }
+    #menu_button{
+        margin-left: 72%;
+        margin-top: -23%;
+    }
+
 }
 
 .Place_Order {
     padding-bottom: 1rem;
 }
+
+
+
