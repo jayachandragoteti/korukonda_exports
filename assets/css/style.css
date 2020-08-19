@@ -13699,7 +13699,14 @@ margin-left: -15%;
 .slider_image{
     height:250px;
 }
+#slider_image{
+    height:500px;
+}
+
 @media only screen and (max-width: 1000px) {
+    #slider_image{
+        height:350px;
+    }
     .carousel-caption h3,
     h5,
     p {
